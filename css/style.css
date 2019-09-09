@@ -1,18 +1,21 @@
 * {
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Merriweather', serif;
     box-sizing: border-box;
+    margin:0;
+    padding:0;
 }
 
 body {
     color: #383838;
     background-color:whitesmoke;
+    margin:auto;
 }
 
 html {
     font-size: 62.5%;
     }
 
-h1,
+/* h1,
 h2,
 h3,
 h4,
@@ -20,10 +23,10 @@ h5,
 h6,
 .menu a {
     color: #373737;
-}
-h1, h2, h4 {
-    font-family: 'Open Sans', sans-serif;
-    font-weight:600;
+} */
+/* h1, h2, h4 {
+    
+    font-weight:400;
     }
     
     h1 {
@@ -35,17 +38,17 @@ h1, h2, h4 {
     padding-bottom: .25rem;
     margin-top:.5rem;
     
-    }
+    } */
     
-    h4 {
+    /* h4 {
     font-weight:600;
     font-size: 1.2rem;
     text-align:center;
     padding:.5rem;
     margin-top:1rem;
-    }
+    } */
     
-    p {
+     /* p {
     line-height: 1.5;
     font-size: 1.4rem;
     padding-bottom: .25rem;
@@ -53,7 +56,6 @@ h1, h2, h4 {
     width:80%;
     height:100%;
     margin:1rem auto;
-    
     }
     
     img {
@@ -66,12 +68,10 @@ h1, h2, h4 {
     margin: 0;
     /* margin-block-start: 0rem;
     margin-block-end: 0rem;
-    padding-inline-start: 40px; */
-    }
+    padding-inline-start: 40px; }*/
+     
 
-    .bg-color-gray {
-    background-color:whitesmoke;
-    }
+  
 
 /* LINKS ================= */
 
@@ -89,4 +89,60 @@ a:active {
 color:orange;
 }
 
-/* END OF GLOBAL 
+/* END OF GLOBAL */
+
+form {
+    max-width:95rem;
+    margin:2rem auto;
+    padding: 1rem 2rem;
+    border-radius:.5rem;
+}
+
+header {
+    background-color:#2d3945;
+    height:3rem;
+    width:100%;
+}
+
+h1 {
+    display: flex;
+    justify-content:center;
+    margin:auto;
+    padding:1rem;
+    font-size:.95rem;
+    font-weight:400;
+    color:#fff;
+    
+}
+.signup {
+   /* display:flex;
+   flex-wrap:wrap;
+   justify-content:center; */
+}
+h2 {
+    display:flex;
+    justify-content:center;
+    color:#2d3945;
+    font-size:1.25rem;
+    font-weight:700;
+    margin:1.2rem auto;
+}
+.tagline {
+    color:gray;
+    margin:0 auto;
+    text-align: center;
+    font-size:.85rem;
+    line-height: 1.2rem;
+    width: 70%;
+}
+.thick-line {
+    width:90%;
+    margin:2rem auto .18rem auto;
+    border-top: 3px solid #2d3945;
+    
+}
+.thin-line {
+    width:90%;
+    margin:.05rem auto;
+    border-top:1px solid #2d3945;
+}
