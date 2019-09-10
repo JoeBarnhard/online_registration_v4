@@ -27,7 +27,7 @@
     </div>
     <!-- --- Contact Information Section ------- -->
     <form action="form-page" method="post">
-        <fieldset class="one">
+        <fieldset class="info">
             <legend>Contact Information</legend>
 
             <div>
@@ -56,8 +56,8 @@
             </div>
             <div>
                 <label for="name">State</label>
-                    <select id="state-select" name="user_state">
-                    <option class="text">Choose State</option>
+                    <select id="state-select" name="user_state" tabindex="-1" class="downarrow">
+                    <option class="text" tabindex="-1" class="downarrow">Choose State</option>
                         <option value="connecticut">Alabama</option>
                         <option value="connecticut">Alaska</option>
                         <option value="connecticut">Arizona</option>
@@ -113,7 +113,7 @@
             </div>
 
             <div class="zipcode">
-                <label for="name">Zip Code</label> <br>
+                <label for="name">Zip Code</label> 
                 <input type="text" class="zip" id="zip" name="user_zip">
             </div>
         </fieldset>

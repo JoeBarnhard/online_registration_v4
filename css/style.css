@@ -54,9 +54,10 @@ h2 {
 }
 label{
     color:	#909090;
-    font-size: .95rem;
-    margin: 1.2rem 0 .5rem 0;
+    font-size: 1rem;
+    margin: 2rem 0 .9rem 0;
     display: block;
+
     /* border: solid red 2px; */
    
 }
@@ -64,9 +65,11 @@ label{
     color:gray;
     margin:0 auto;
     text-align: center;
-    font-size:.85rem;
+    font-size: 1rem;
     line-height: 1.2rem;
     width: 70%;
+    
+    
     
 }
 .thick-line {
@@ -80,13 +83,13 @@ label{
     margin:.025rem auto;
     border-top:1px solid #2d3945;
 }
-.one{
+.info{
     border: none;
     display:block;
     padding:1rem;
     width:99%;
     margin:0 auto;
-     
+   
     
 }
 legend {
@@ -97,43 +100,49 @@ legend {
     
     
 }
-.text, #select-state {
-    width:99%;
-    padding:.5rem;
+.text, select{
+    width:98%;
+    padding:1rem;
     background-color: #E0E0E0;
     border-radius:5px;
-    border:none;
+    border:none;  
 }
+input { 
+    text-align: left; 
+}
+
 .zip {
     width:50%;
-    padding:.5rem;
+    padding:1rem;
     background-color: #E0E0E0;
     border-radius:5px;
     border:none;
+    
 }
 
 .text:focus {
     border:none;
-    border-bottom: solid #2d3945 2px;
+    border-bottom: solid #2d3945 3px;
+    transition-duration: .25s;
+    color:#2d3945;
 }
 .zip:focus {
     border:none;
-    border-bottom: solid #2d3945 2px;
+    border-bottom: solid #2d3945 3px;
 }
 
 ::-webkit-input-placeholder, #state-select { /* Chrome/Opera/Safari */
     color:	#A9A9A9;
     display:flex;
-    
     font-weight:300;
-    font-size:.65rem;
+    font-size:.85rem;
     
 }
 ::placeholder {
     color:	#A9A9A9;
-    display:flex;
-    align-items:flex-end;
-    padding:10rem 10.5rem;
+    position:relative;
+    padding:10rem .5rem;
+    text-align:right;
 }
 
 /* input[type=text]:focus {
