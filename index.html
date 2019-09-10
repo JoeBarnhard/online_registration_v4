@@ -8,6 +8,11 @@
     <link rel="stylesheet" type="text/css" href="css/normalize.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather:300,400,700&display=swap" rel="stylesheet">
     <title>Online Registration Form</title>
+    <style type="text/css">
+        input:focus, textarea:focus, select:focus{
+            outline: none;
+        }
+    </style>
 </head>
 <body>
     <header>
@@ -27,7 +32,7 @@
 
             <div>
                 <label for="name">Full Name</label>
-                <input class="text" required type="text" id="name" name="full_name" placeholder="Required">
+                <input class="text" required type="text" id="full-name" name="full_name" placeholder="Required">
             </div>
 
             <div>
@@ -50,10 +55,9 @@
                 <input class="text" required type="text" id="city" name="user_city" placeholder="Required">
             </div>
             <div>
-                <label for="state-select">State</label>
-        
-                <select id="state-select" name="user_state">
-                    <option value="">Choose State</option>
+                <label for="name">State</label>
+                    <select id="state-select" name="user_state">
+                    <option class="text">Choose State</option>
                         <option value="connecticut">Alabama</option>
                         <option value="connecticut">Alaska</option>
                         <option value="connecticut">Arizona</option>
@@ -109,18 +113,15 @@
             </div>
 
             <div class="zipcode">
-                <label for="zip">Zip Code</label> <br>
-                <input type="text" class="text" id="zip" name="user_zip">
+                <label for="name">Zip Code</label> <br>
+                <input type="text" class="zip" id="zip" name="user_zip">
             </div>
         </fieldset>
 
-        <hr class="thin">
+        
     <!-- --- Newsletter Section ------- -->
 
-
-
-
-
     </form>
+    <hr class="thin-line">
 </body>
 </html>
