@@ -77,15 +77,15 @@ label{
     
 }
 .thick-line {
-    width:90%;
+    width:100%;
     margin:2rem auto .18rem auto;
     border-top: 3px solid #2d3945;
     
 }
 .thin-line {
-    width:90%;
+    width:100%;
     margin:.025rem auto;
-    border-top:1px solid #2d3945;
+    border-top:1.2px solid #2d3945;
 }
 .info, .news{
     border: none;
@@ -258,10 +258,6 @@ button:focus {
     width: 60%;
     margin:0 auto;
 }
-.thick-line, .thin-line {
-    width: 60%;
-    margin:.25rem auto;
-}
 
 #state-select {
     padding:2rem;
@@ -276,24 +272,6 @@ button:focus {
 button {
     width:100%;
 }
-/*
-label {
-    display: flex;
-    
-    flex: 1 25%;
-    width:15%;
-    border:1px solid red;
-}
-	
-.text, select{
-    width:60%;
-    display:flex;
-    flex-flow: wrap;
-    flex: 2 75%;
-   
-    border:1px solid orange;
-}	 */
-
 .zip {
     width:25%;
     padding:1rem;
@@ -302,23 +280,5 @@ label {
     border:none;
     
 }
-/* .contact-label {
-    display: flex;
-    flex-flow: wrap;
-}
-.contact-form label {
-    font-size: .9em;
-    flex: 1 25%;
-    margin-top: 33px;
-}
-.contact-label input, select {
-    flex: 1 75%;
-}
-.select-form {
-    margin: 15px 0 0;
-}
-#zip {
-    margin-right: 45%;
-    max-width: 30%;
-} */
+
 }
