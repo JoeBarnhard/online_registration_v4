@@ -21,15 +21,14 @@ html {
 
 form {
     max-width:95rem;
-    margin:1.2rem auto;
-    padding: 1rem 1rem;
-    border-radius:.5rem; 
-   
+    /* margin:1.2rem auto;
+    padding: .5rem 1rem;
+    border-radius:.5rem;  */
 }
 
 header {
     background-color:#2d3945;
-    height:3rem;
+    height:3.5rem;
     width:100%;
 }
 
@@ -38,7 +37,7 @@ h1 {
     justify-content:center;
     margin:auto;
     padding:1rem;
-    font-size:.95rem;
+    font-size:1.2rem;
     font-weight:400;
     color:#fff; 
 }
@@ -51,25 +50,23 @@ h2 {
     font-weight:700;
     margin:2.5rem auto 1.2rem;
 }
-label{
+label {
     color:	#909090;
     font-size: 1rem;
     margin: 1.2rem 0 .5rem 0;
     display: block; 
-    
     /* border: solid red 2px; */
-   
 }
 .tagline {
-    color:gray;
-    margin:1rem auto;
+    color:	#909090;
+    margin:.5rem auto;
     text-align: center;
     font-size: 1rem;
     line-height: 1.2rem;
     width: 70%;   
 }
 .tagline2 {
-    color:gray;
+    color:	#909090;
     font-size: 1rem;
     line-height: 1.2rem;
     width: 90%;
@@ -93,8 +90,6 @@ label{
     padding:1rem;
     width:99%;
     margin:0 auto;
-   
-    
 }
 legend {
     display: block;
@@ -102,8 +97,6 @@ legend {
     font-size:1.25rem;
     font-weight:700;
     margin-top:1rem;
-    
-    
 }
 .text, select{
     width:98%;
