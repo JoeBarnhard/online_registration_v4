@@ -117,11 +117,34 @@
                 <input type="text" class="zip" id="zip" name="user_zip">
             </div>
         </fieldset>
-
         
     <!-- --- Newsletter Section ------- -->
-
-    </form>
+    <br>
     <hr class="thin-line">
+    <br>
+    <br>
+    <fieldset class="news">
+        <legend>Newsletter</legend>
+        <p class="tagline2">Select the newsletter you would like to receive.</p>
+        <input type="checkbox" id="html" value="interest_html"
+        name="user_subscriptions"> <label for="html" class="extra">HTML news</label><br>
+        <input type="checkbox" id="css" value="interest_css"
+        name="user_subscriptions"> <label for="css" class="extra">CSS news</label><br>
+        <input type="checkbox" id="javascript" value="interest_javascript" name="user_subscriptions"> <label for="javascript" class="extra">Javascript News</label><br>
+        <br>
+
+        <label>Newsletter Format</label>
+        <input type="radio" id="html-format" value="html-format"
+        name="selection"><label for="html-format" class="extra">HTML</label><br>
+        <input type="radio" id="text-format" value="text-format" name="selection"><label for="text-format" class="extra">Plain Text</label><br>
+
+        <label for="other" class="other-topic">Other topics you'd like to hear about</label>
+        <textarea name="other" id="other" class="other"></textarea>
+
+        <button type="submit">Sign Up</button>
+    </fieldset>
+    </form>
+    
+    <span class="fontawesome"> &#8709; Powered by Font Awesome - Joe Barnhard 2027 &#169;</span>
 </body>
 </html>
