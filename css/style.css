@@ -74,13 +74,13 @@ label {
     
 }
 .thick-line {
-    width:100%;
+    width:96%;
     margin:2rem auto .18rem auto;
     border-top: 3px solid #2d3945;
     
 }
 .thin-line {
-    width:100%;
+    width:96%;
     margin:.025rem auto;
     border-top:1.2px solid #2d3945;
 }
@@ -88,7 +88,7 @@ label {
     border: none;
     display:block;
     /* padding:1rem; */
-    width:99%;
+    width:96%;
     margin:0 auto;
 }
 legend {
@@ -96,7 +96,7 @@ legend {
     border: none;
     font-size:1.25rem;
     font-weight:700;
-    margin-top:1rem;
+    margin:1rem 0 2rem 0;
 }
 .text, select{
     width:98%;
@@ -197,7 +197,7 @@ input[type="radio"]:checked:after {
 
 .other {
     height: 150px;
-    width:98%;
+    width:100%;
     height:7rem;
     margin:.25rem auto 1.2rem auto;
     border-style:none;
@@ -239,6 +239,10 @@ button:focus {
 	
 /* BASE ELEMENT STYLES */
 
+.lines {
+    width: 60%;
+    margin:0 auto;
+}
  .info {
     display:flex;
     justify-content:center;
@@ -250,6 +254,7 @@ fieldset {
     justify-content:center;
     margin:0;
 }
+
 .signup {
     width:60%;
     margin:0 auto;
@@ -278,7 +283,6 @@ button {
     background-color: whitesmoke;
     border-radius:5px;
     border:none;
-    
 }
 
 }
