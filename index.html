@@ -33,31 +33,31 @@
             <fieldset class="info"> 
                 <legend>Contact Information</legend>
             <div class="fields">
-                <label>Full Name</label>
+                <label for="name">Full Name</label>
                 <input class="text" required type="text" id="full-name" name="full_name" placeholder="Required">
             </div>
 
             <div class="fields">
-                <label>Email Address</label>
+                <label for="name">Email Address</label>
                 <input class="text" required type="email" id="mail" name="user_email" placeholder="Required">
             </div>
 
             <div class="fields">
-                <label>Phone Number</label>
+                <label for="name">Phone Number</label>
                 <input class="text" required type="tel" id="phone" name="user_number" placeholder="Optional">
             </div>
 
             <div class="fields">
-                <label>Street Address</label>
+                <label for="name">Street Address</label>
                 <input class="text" required type="text" id="street" name="user_address" placeholder="">
             </div>
 
             <div class="fields">
-                <label>City</label>
+                <label for="name">City</label>
                 <input class="text" required type="text" id="city" name="user_city" placeholder="">
             </div>
             <div class="fields">
-                <label>State</label>
+                <label for="name">State</label>
                     <select id="state-select" name="user_state" tabindex="-1" class="text">
                     <option class="text" tabindex="-1">Choose State</option>
                         <option value="connecticut">Alabama</option>
@@ -115,7 +115,7 @@
             
 
             <div class="zipcode">
-                <label>Zip Code</label> 
+                <label for="name">Zip Code</label> 
                 <input type="text" class="zip" id="zip" name="user_zip">
             </div>
         </div>
@@ -147,8 +147,8 @@
         name="selection"><label for="html-format" class="extra">HTML</label><br>
         <input type="radio" id="text-format" value="text-format" name="selection"><label for="text-format" class="extra">Plain Text</label><br>
 
-        <label class="other-topic">Other topics you'd like to hear about</label>
-        <textarea name="other" class="other"></textarea>
+        <label for="other" class="other-topic">Other topics you'd like to hear about</label>
+        <textarea name="other" id="other" class="other"></textarea>
 
         <button type="submit">Sign Up</button>
     </fieldset>

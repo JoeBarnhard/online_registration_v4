@@ -100,6 +100,7 @@ legend {
     margin:1rem 0 2rem 0;
 }
 .text, select{
+    margin: 0 auto;
     width:98%;
     padding:1rem;
     background-color: whitesmoke;
@@ -115,6 +116,8 @@ input {
     border-bottom: solid #2d3945 3px;
     transition-duration: .25s;
     color:#2d3945;
+    background-color:#F0F8FF;
+    transition: background-color 0.45s ease;
     
 }
 
@@ -131,6 +134,8 @@ input {
 .zip:focus {
     border:none;
     border-bottom: solid #2d3945 3px;
+    background-color:#F0F8FF;
+    transition: background-color 0.5s ease;
 }
 
 ::-webkit-input-placeholder, #state-select { /* Chrome/Opera/Safari */
@@ -201,6 +206,8 @@ input[type="radio"]:checked:after {
 
 .other-topic {
     margin-top: 3rem;
+    width:80%;
+     /* border: solid orange 2px;  */
 }
 
 
@@ -213,8 +220,13 @@ input[type="radio"]:checked:after {
     border-radius:5px;
     background-color:  whitesmoke;
     padding:.5rem;
-    /* border: solid orange 2px; */
+    
   }
+
+  #other:focus {
+    background-color:#F0F8FF;
+    transition: background-color 0.5s ease;
+}
 
 
   /* SIGN UP and COPYRIGHT */
@@ -244,7 +256,7 @@ button:focus {
 
 /* MEDIA QUERIES */
 
-@media (min-width: 760px) {
+@media (min-width: 768px) {
 	
 /* BASE ELEMENT STYLES */
 
@@ -304,8 +316,9 @@ label {
 #other {
     margin: .5rem auto 1rem auto;
     width:100%;
-    /* border: orange solid 1px; */
+    
 }
+
 button {
     width:100%;
 }
